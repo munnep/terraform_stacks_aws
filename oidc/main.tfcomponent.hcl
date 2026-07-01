@@ -1,5 +1,5 @@
 component "network" {
-  source = "./../network"
+  source = "./network"
   inputs = {
     network_name = var.network_name
     prefix = var.prefix
