@@ -3,6 +3,8 @@ required_providers {
     source  = "hashicorp/aws"
     version = "6.51.0"
   }
+
+    required_version = "1.14.8"
 }
 
 provider "aws" "this" {
